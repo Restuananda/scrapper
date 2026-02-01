@@ -1,0 +1,174 @@
+version: '3.8'
+
+# =====================================================
+# SHOPEE INTELLIGENCE PLATFORM - Docker Stack
+# =====================================================
+# Quick start: ./sip install
+# Or: docker-compose up -d
+# =====================================================
+
+services:
+  # =====================================================
+  # Laravel Application
+  # =====================================================
+  app:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    container_name: sip-app
+    restart: unless-stopped
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+      - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - sip-network
+    depends_on:
+      - db
+      - redis
+
+  # =====================================================
+  # Nginx Web Server
+  # =====================================================
+  nginx:
+    image: nginx:alpine
+    container_name: sip-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - .:/var/www/html
+      - ./docker/nginx/conf.d:/etc/nginx/conf.d
+      - ./docker/nginx/ssl:/etc/nginx/ssl
+    networks:
+      - sip-network
+    depends_on:
+      - app
+
+  # =====================================================
+  # PostgreSQL Database
+  # =====================================================
+  db:
+    image: postgres:16-alpine
+    container_name: sip-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_DATABASE:-shopee_intel}
+      POSTGRES_USER: ${DB_USERNAME:-sip}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-secret}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - sip-network
+
+  # =====================================================
+  # Redis (Cache, Queue, Session)
+  # =====================================================
+  redis:
+    image: redis:7-alpine
+    container_name: sip-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - sip-network
+
+  # =====================================================
+  # Laravel Horizon (Queue Worker)
+  # =====================================================
+  horizon:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    container_name: sip-horizon
+    restart: unless-stopped
+    working_dir: /var/www/html
+    command: php artisan horizon
+    volumes:
+      - .:/var/www/html
+    networks:
+      - sip-network
+    depends_on:
+      - app
+      - redis
+
+  # =====================================================
+  # Node.js Scraper Service
+  # =====================================================
+  scraper:
+    build:
+      context: ./scraper
+      dockerfile: Dockerfile
+    container_name: sip-scraper
+    restart: unless-stopped
+    environment:
+      REDIS_URL: redis://redis:6379
+      API_CALLBACK_URL: http://app:8000/api/internal/scrape-callback
+      API_CALLBACK_SECRET: ${SCRAPER_CALLBACK_SECRET}
+      PROXY_URL: ${SCRAPER_PROXY_URL}
+    volumes:
+      - ./scraper/logs:/app/logs
+    networks:
+      - sip-network
+    depends_on:
+      - redis
+    # Required for Puppeteer
+    cap_add:
+      - SYS_ADMIN
+    security_opt:
+      - seccomp=unconfined
+
+  # =====================================================
+  # Meilisearch (Full-text Search)
+  # =====================================================
+  meilisearch:
+    image: getmeili/meilisearch:v1.6
+    container_name: sip-meilisearch
+    restart: unless-stopped
+    environment:
+      MEILI_MASTER_KEY: ${MEILISEARCH_KEY:-masterkey}
+      MEILI_NO_ANALYTICS: true
+    volumes:
+      - meilisearch_data:/meili_data
+    ports:
+      - "7700:7700"
+    networks:
+      - sip-network
+
+  # =====================================================
+  # Mailhog (Local Email Testing)
+  # =====================================================
+  mailhog:
+    image: mailhog/mailhog
+    container_name: sip-mailhog
+    ports:
+      - "1025:1025"  # SMTP
+      - "8025:8025"  # Web UI
+    networks:
+      - sip-network
+    profiles:
+      - dev
+
+# =====================================================
+# Volumes
+# =====================================================
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  meilisearch_data:
+    driver: local
+
+# =====================================================
+# Networks
+# =====================================================
+networks:
+  sip-network:
+    driver: bridge
