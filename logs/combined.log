@@ -1,0 +1,116 @@
+{"level":"info","message":"🚀 SIP Scraper Service started","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.127Z"}
+{"level":"info","message":"📡 Connected to Redis: redis://localhost:6379","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.130Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.144Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.144Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.148Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.149Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.158Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.159Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.180Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.181Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.239Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.243Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.391Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.395Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.799Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:44:57.800Z"}
+{"level":"info","message":"🚀 SIP Scraper Service started","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.586Z"}
+{"level":"info","message":"📡 Connected to Redis: redis://localhost:6379","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.589Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.602Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.603Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.607Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.607Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.615Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.616Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.636Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.637Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.693Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.695Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.846Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:21.848Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:22.254Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:22.255Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:23.353Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:45:23.354Z"}
+{"level":"info","message":"🚀 SIP Scraper Service started","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.853Z"}
+{"level":"info","message":"📡 Connected to Redis: redis://localhost:6379","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.856Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.870Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.871Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.875Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.876Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.884Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.884Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.906Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.907Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.965Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:37.969Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:38.120Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:38.129Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:38.527Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:38.535Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:39.628Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:46:39.634Z"}
+{"level":"info","message":"🚀 SIP Scraper Service started","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.826Z"}
+{"level":"info","message":"📡 Connected to Redis: redis://localhost:6379","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.829Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.844Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.845Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.848Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.849Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.858Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.859Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.883Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.886Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.944Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:20.948Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:21.097Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:21.100Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:21.503Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:21.505Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:22.603Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:22.605Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:25.592Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:25.593Z"}
+{"level":"info","message":"🚀 SIP Scraper Service started","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.122Z"}
+{"level":"info","message":"📡 Connected to Redis: redis://localhost:6379","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.125Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.140Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.141Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.145Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.146Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.154Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.154Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.176Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.177Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.233Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.235Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.388Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.390Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.796Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:50.797Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:51.897Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:51.898Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:54.882Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:47:54.882Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:02.992Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:02.993Z"}
+{"level":"info","message":"🚀 SIP Scraper Service started","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.216Z"}
+{"level":"info","message":"📡 Connected to Redis: redis://localhost:6379","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.220Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.238Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.239Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.243Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.244Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.253Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.254Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.279Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.282Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.339Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.343Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.491Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.495Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.898Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:05.900Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:07.000Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:07.001Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:09.989Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:09.989Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:18.097Z"}
+{"error":"","level":"error","message":"Queue error","service":"sip-scraper","timestamp":"2026-02-01T03:48:18.100Z"}
